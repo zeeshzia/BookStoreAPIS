@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, DeclarativeBase
 import os
-DATABASE_URL = "sqlite:///./bookstore_new.db"
+DATABASE_URL = "sqlite:////data/bookstore_new.db"
 print("SERVER DB FILE:", os.path.abspath("bookstore_new.db"))
 
 
